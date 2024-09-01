@@ -10,7 +10,7 @@ import { ChatShareDialog } from '@/components/chat-share-dialog'
 import { useAIState, useActions, useUIState } from 'ai/rsc'
 import type { AI } from '@/lib/chat/actions'
 import { nanoid } from 'nanoid'
-import { UserMessage } from './stocks/message'
+import { UserMessage } from './tools/message'
 
 export interface ChatPanelProps {
   id?: string
@@ -37,13 +37,13 @@ export function ChatPanel({
   const exampleMessages = [
     {
       heading: 'What are the',
-      subheading: 'current scholarships available in the US?',
-      message: `what are the current scholarships available in the US?`
+      subheading: 'current grants to write proposals on?',
+      message: `the current scholarships available in the US?`
     },
     {
       heading: 'List some of the',
-      subheading: 'best universities in Canada for Phd Students',
-      message: 'List some of the best universities in Canada for Phd Students'
+      subheading: 'best proposal strategy to win a grant',
+      message: 'some of the best proposal strategies available'
     },
   ]
 
