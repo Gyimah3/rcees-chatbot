@@ -38,7 +38,7 @@ export function ChatPanel({
     {
       heading: 'What are the',
       subheading: 'current grants to write proposals on?',
-      message: `the current scholarships available in the US?`
+      message: `the current ways of writing a good proposal?`
     },
     {
       heading: 'List some of the',
