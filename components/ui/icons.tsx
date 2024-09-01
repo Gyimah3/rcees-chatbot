@@ -10,7 +10,7 @@ function IconNextChat({
 }: React.ComponentProps<'img'>) {
   return (
     <img
-      src="/sch-logo.png"
+      src="rcees-logo.jpg"
       alt="logoChat"
       className={cn('size-4', className)}
       {...props}

@@ -13,14 +13,14 @@ export const metadata = {
     ? new URL(`https://${process.env.VERCEL_URL}`)
     : undefined,
   title: {
-    default: 'Scholarship Headquaters AI',
-    template: `%s - Scholarship Headquaters AI`
+    default: 'RCEES AI',
+    template: `%s - RCEES AI`
   },
-  description: 'An AI-powered chatbot built by Scholarship Headquaters with Edith v1.0',
+  description: 'An AI-powered chatbot built by Rcees UENR with RCEES.AI v1.0',
   icons: {
-    icon: '/sch-logo.png',
-    shortcut: '/sch-logo.png',
-    apple: '/sch-logo.png'
+    icon: '/rcees-logo.jpg',
+    shortcut: '/rcees-logo.jpg',
+    apple: '/rcees-logo.jpg'
   }
 }
 

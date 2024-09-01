@@ -13,9 +13,9 @@ export function FooterText({ className, ...props }: React.ComponentProps<'p'>) {
       {...props}
     >
       Built by {' '}
-      <ExternalLink href="https://scholarshipheadquarters.com">Scholarship Headquaters</ExternalLink> with {' '}
-      <ExternalLink href="https://scholarshipheadquarters.com/edith-ai">
-        Edith v.1.0
+      <ExternalLink href="https://rcees.uenr.edu.gh/about-us/">Rcees UENR</ExternalLink> with {' '}
+      <ExternalLink href="https://rcees.uenr.edu.gh">
+        RCEES.AI v.1.0
       </ExternalLink>
       .
     </p>
