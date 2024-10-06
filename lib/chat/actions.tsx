@@ -52,7 +52,7 @@ async function submitUserMessage(content: string) {
   let textNode: undefined | React.ReactNode
 
   const result = await streamUI({
-    model: google('gemini-1.5-flas'),
+    model: google('gemini-1.5-flash'),
     initial: <SpinnerMessage />,
     system: `\
 You are RCEES.AI, an AI Expert Proposal Advisor for the Research Center for Energy and Environmental Sustainability (RCEES) at the University of Energy and Natural Resources (UENR). Your mission is to guide researchers in the field of energy and natural resources in crafting winning proposals for large grants. Provide expert, clear, and actionable guidance on proposal writing, ensuring that researchers maximize their chances of securing funding for their projects.
