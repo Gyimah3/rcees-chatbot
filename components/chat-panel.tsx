@@ -36,14 +36,14 @@ export function ChatPanel({
 
   const exampleMessages = [
     {
-      heading: 'What are the',
-      subheading: 'current grants to write proposals on?',
-      message: `the current ways of writing a good proposal?`
+      heading: '.',
+      subheading: '.',
+      message: `.`
     },
     {
-      heading: 'List some of the',
-      subheading: 'best proposal strategy to win a grant',
-      message: 'some of the best proposal strategies available'
+      heading: '.',
+      subheading: '.',
+      message: '.'
     },
   ]
 
